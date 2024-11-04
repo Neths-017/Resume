@@ -1,0 +1,28 @@
+.r1 {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+
+  background-size: cover;
+  font-size: 40px;
+}
+
+.r1-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+
+  column-gap: 100px;
+}
+
+.r1-content {
+  flex-direction: column;
+  z-index: 20;
+}
+
+.r1 img {
+  height: 600px;
+  border-radius: 200px;
+}
