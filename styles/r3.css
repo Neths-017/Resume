@@ -18,16 +18,16 @@
 }
 
 .inside-container-01 section {
-  background-image: url("/image/WorkExperience/Freelance/GridArt_20241104_192411978.jpg");
+  background-image: url("../image/WorkExperience/Freelance/GridArt_20241104_192411978.jpg");
   z-index: 1;
 }
 .inside-container-02 section {
-  background-image: url("/image/WorkExperience/bdo/GridArt_20241104_193120013.jpg");
+  background-image: url("../image/WorkExperience/bdo/GridArt_20241104_193120013.jpg");
   z-index: 1;
 }
 
 .inside-container-03 section {
-  background-image: url("/image/WorkExperience/GGH/GridArt_20241104_193411678.jpg");
+  background-image: url("../image/WorkExperience/GGH/GridArt_20241104_193411678.jpg");
   z-index: 1;
 }
 
