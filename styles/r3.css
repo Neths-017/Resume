@@ -1,0 +1,19 @@
+.r3 {
+  background-color: red;
+  width: 80%;
+}
+
+.r3 h1 {
+  text-align: center;
+}
+
+.r3-background-01 {
+  background-image: url(/image/);
+}
+
+.r3-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: green;
+}
