@@ -1,19 +1,71 @@
 .r3 {
-  background-color: red;
   width: 80%;
+  height: 1000px;
+  margin-bottom: 700px;
 }
 
 .r3 h1 {
   text-align: center;
 }
-
-.r3-background-01 {
-  background-image: url(/image/);
-}
-
 .r3-container {
+  margin-top: 300px;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.inside-container-01 section {
+  background-image: url("/image/WorkExperience/Freelance/GridArt_20241104_192411978.jpg");
+  z-index: 1;
+}
+.inside-container-02 section {
+  background-image: url("/image/WorkExperience/bdo/GridArt_20241104_193120013.jpg");
+  z-index: 1;
+}
+
+.inside-container-03 section {
+  background-image: url("/image/WorkExperience/GGH/GridArt_20241104_193411678.jpg");
+  z-index: 1;
+}
+
+.r3-background {
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+
+  width: 1523px;
+  height: 495px;
+  z-index: 1;
+
+  box-shadow: -1px -1px 41px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px -1px 41px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 41px 6px rgba(0, 0, 0, 0.75);
+}
+
+.content {
+  padding: 20px;
+  position: absolute;
+  z-index: 9;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  background-color: green;
+
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.2px);
+  -webkit-backdrop-filter: blur(10.2px);
+}
+
+.inside-container-01,
+.inside-container-02,
+.inside-container-03 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
 }
