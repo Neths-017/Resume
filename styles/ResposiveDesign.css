@@ -87,6 +87,10 @@
     height: 200px;
   }
 
+  .content h3 {
+    text-align: center;
+  }
+
   .r4 {
     width: 100%;
     font-size: 20px;
