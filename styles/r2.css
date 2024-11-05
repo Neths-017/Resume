@@ -1,12 +1,14 @@
 .r2 {
-  width: 80%;
+  width: 100;
   text-align: center;
   margin-bottom: 250px;
 }
 
 .skills-Container {
   display: flex;
+
   justify-content: space-around;
+  align-items: center;
   font-size: 20px;
 
   box-shadow: -1px -1px 119px 1px rgba(0, 0, 0, 0.61);

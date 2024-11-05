@@ -1,0 +1,78 @@
+/* for Mobile */
+@media (max-width: 425px) {
+  .header {
+    font-size: 5px;
+    height: 40px;
+  }
+  .r1 {
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .r1-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    column-gap: 10px;
+  }
+  .r1 img {
+    height: 500px;
+  }
+
+  .r2 {
+    width: 100%;
+  }
+
+  .skills-Container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .r3 {
+    width: 100%;
+    height: 700px;
+  }
+  .r3 h1 {
+    font-size: 30px;
+  }
+
+  .r3-container {
+    margin-top: 200px;
+  }
+
+  .inside-container-01,
+  .inside-container-02,
+  .inside-container-03 {
+    font-size: 20px;
+  }
+
+  .r3-background {
+    width: 100%;
+    height: 300px;
+  }
+
+  .content {
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+  }
+
+  .r4 {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .r5 {
+    width: 100%;
+  }
+
+  footer {
+    padding: 0px;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
