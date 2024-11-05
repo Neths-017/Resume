@@ -1,13 +1,16 @@
 /* for Mobile */
 @media (max-width: 425px) {
   .header {
-    font-size: 5px;
-    height: 40px;
+    z-index: -1;
+    height: 0px;
+    font-size: 0px;
   }
+
   .r1 {
     font-size: 15px;
     width: 100%;
     text-align: center;
+    height: 700px;
   }
 
   .r1-container {
@@ -17,7 +20,8 @@
     column-gap: 10px;
   }
   .r1 img {
-    height: 500px;
+    height: 300px;
+    border-radius: 100px;
   }
 
   .r2 {
