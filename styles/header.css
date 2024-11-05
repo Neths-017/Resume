@@ -3,12 +3,12 @@
   justify-content: center;
   width: 100%;
   position: fixed;
-  height: 70px;
+  height: 120px;
   background-color: #00000000;
 
   transition: background-color 0.2s ease-out;
   z-index: 999;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 header.scrolled {

@@ -1,7 +1,16 @@
 .r2 {
-  width: 100;
+  width: 100%;
   text-align: center;
   margin-bottom: 250px;
+  height: 400px;
+}
+
+.r2 h1 {
+  font-size: 45px;
+}
+
+.skills-Container li {
+  margin: 10px;
 }
 
 .skills-Container {
@@ -9,7 +18,7 @@
 
   justify-content: space-around;
   align-items: center;
-  font-size: 20px;
+  font-size: 30px;
 
   box-shadow: -1px -1px 119px 1px rgba(0, 0, 0, 0.61);
   -webkit-box-shadow: -1px -1px 119px 1px rgba(0, 0, 0, 0.61);
