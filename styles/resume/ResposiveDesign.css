@@ -28,6 +28,10 @@
     border-radius: 100px;
   }
 
+  .r1-1-content {
+    width: 100%;
+  }
+
   .r2 {
     display: flex;
     flex-direction: column;

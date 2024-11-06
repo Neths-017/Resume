@@ -1,0 +1,42 @@
+@media (max-width: 425px) {
+  .header {
+    z-index: -1;
+    height: 0px;
+    font-size: 0px;
+  }
+
+  .b1 {
+    width: 100%;
+    height: 200px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .b1-outside-container {
+    height: 200px;
+    position: relative;
+    width: 80%;
+  }
+
+  .b1-content {
+    position: absolute;
+    bottom: -20px;
+    left: 12px;
+    color: white;
+    font-size: 8px;
+  }
+
+  .b2-container {
+    font-size: 12px;
+  }
+
+  footer {
+    padding: 0px;
+    font-size: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
