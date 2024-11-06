@@ -3,26 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--CSS-->
-    <link rel="stylesheet" href="styles/general.css"/>
-    <link rel="stylesheet" href="styles/header.css"/>
-    <link rel="stylesheet" href="styles/r1.css" />
-    <link rel="stylesheet" href="styles/r2.css"/>
-    <link rel="stylesheet" href="styles/r3.css"/>
-    <link rel="stylesheet" href="styles/r4.css"/>
-    <link rel="stylesheet" href="styles/r5.css"/>
-    <link rel="stylesheet" href="styles/footer.css"/>
-    <link rel = "stylesheet" href="styles/ResposiveDesign.css">
-    <title>Kenneth Resume</title>
 
-
-    <!--Font Awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!--Font Awesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
+    <!--CSS-->
+    <link rel="stylesheet" href="styles/shared-css/header.css"/>
+    <link rel="stylesheet" href="styles/resume/general.css"/>
+    <link rel="stylesheet" href="styles/resume/main.css"/>
+    <link rel="stylesheet" href="styles/shared-css/footer.css"/>
+
+    <!-- title -->
+    <title>Kenneth Resume</title>
   </head>
 
   <body>
-
     <header class = "header">
       <div class="header-container">
         <nav class="left-header">
@@ -34,10 +29,10 @@
             <div><a href="#section4">Educational Background</a></div>
           </nav>
         </nav>
-
-        <nav class="right-header"><a href="">Persona blog</a></nav>
+        <nav class="right-header"><a href="#section0-1">About Me</a></nav>
       </div>
     </header>
+
 
     <div class ="MainDocument">
       <!--Intro-->
@@ -51,13 +46,14 @@
             <p>San Jose Del Monte Bulacan 3023</p>
             <p>Website Development | Game Development | IT Support</p>
           </div>
-          <img src="image/Kennethphotos/DSC_5694.JPG" alt="DSC_5694" >
-        </div>
+          <img src="image/Kennethphotos/DSC_5694.JPG" alt="DSC_5694" id="section0-1">
+        </div> 
+    
       <!--About me-->
 
       <div class="r1-1-container">
         <div class="r1-1-content">
-          <h2>About me</h2>
+          <h2><a href="/html-links/blog.html" target="_blank">About me</a></h2>
           <p> I'm a game developer, web frontend developer, and IT support professional with a passion for creating seamless,
              user-friendly experiences. I blend creativity and problem-solving to build immersive games, creating front-end websites, and
             troubleshoot technical issues. As a game developer, I bring ideas to life using various game engines and languages. In web development, 
@@ -69,8 +65,6 @@
       </div>
       <br id="section1">
       </div>
-
- 
 
 
       <!--Summary of Skills-->
@@ -249,18 +243,7 @@
     </footer>
 
 
-    <script>
-      document.addEventListener('scroll', () =>{
-        const header =  document.querySelector('header')
-        if(window.scrollY){
-          header.classList.add("scrolled");
-          console.log("scrolled");
-        } else {
-          header.classList.remove("scrolled");
-          console.log("not ");
-        }
-      })
-    </script>
+    <script src = "scripts/headerFade.js"></script>
 
   </body>
 </html>
