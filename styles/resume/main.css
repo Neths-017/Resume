@@ -34,6 +34,9 @@
 .r1 img {
   height: 500px;
   border-radius: 200px;
+  box-shadow: -1px 1px 75px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 1px 75px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 75px -5px rgba(0, 0, 0, 0.75);
 }
 
 /* r2 */
