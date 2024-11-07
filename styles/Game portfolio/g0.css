@@ -14,18 +14,18 @@
 }
 
 .g1 section {
-  background-image: url("image/GameScreenShoot/WayOutSS/Screenshot32.png");
+  background-image: url("/image/GameScreenShoot/WayOutSS/Screenshot32.png");
   z-index: -1;
 }
 
 .g2 section {
-  background-image: url("image/GameScreenShoot/Purgatorio/Screenshot37.png");
+  background-image: url("/image/GameScreenShoot/Purgatorio/Screenshot37.png");
 }
 .g3 section {
-  background-image: url("image/GameScreenShoot/EndPointSS/ep-screenshoot-02.png");
+  background-image: url("/image/GameScreenShoot/EndPointSS/ep-screenshoot-02.png");
 }
 .g4 section {
-  background-image: url("image/GameScreenShoot/VerdantCatastrophe/VCSS01.png");
+  background-image: url("/image/GameScreenShoot/VerdantCatastrophe/VCSS01.png");
 }
 .background-image {
   background-size: cover;
