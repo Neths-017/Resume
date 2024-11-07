@@ -1,0 +1,54 @@
+.header,
+.h1-left-side,
+.h1-right-side{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.header{
+  background-color: #33998a00;
+  position: fixed;
+  width: 100%;
+ top: -1px;
+  gap: 500px;
+
+  transition: background-color .2s ease-out;
+  z-index: 999;
+}
+
+header.scrolled{
+  background-color: #33998a;
+
+}
+
+
+
+.h1-left-side img{
+  height: 90px;
+  display: flex;
+
+  align-items: center;
+  filter: invert(1);
+  transition: invert .3s ease-out;
+}
+
+.h1-left-side p{
+  width: 100px;
+  padding-left: 5px;
+
+}
+
+.h1-right-side{
+  width: 500px;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.header-container{
+ 
+  width: 76%;
+  display: flex;
+  justify-content: space-between;
+}
