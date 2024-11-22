@@ -1,11 +1,18 @@
 /* for Mobile */
 @media (max-width: 425px) {
   .header {
-    z-index: -1;
-    height: 0px;
+    z-index: 999;
+    height: 10%;
     font-size: 0px;
   }
+  .title-header {
+    font-size: 20px;
+  }
 
+  .menu-button {
+    display: block;
+    font-size: 30px;
+  }
   .r1 {
     font-size: 15px;
     width: 100%;

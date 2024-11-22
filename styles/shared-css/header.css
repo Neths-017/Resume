@@ -11,6 +11,10 @@
   font-size: 17px;
 }
 
+.menu-button {
+  display: none;
+}
+
 header.scrolled {
   background-color: #617d88;
 }
