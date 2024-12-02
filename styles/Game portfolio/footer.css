@@ -1,42 +1,37 @@
-footer{
+footer {
   margin-top: 50px;
   display: flex;
   justify-content: center;
   background-color: #fffafb;
 }
 
-.f1-container{
+.f1-container {
   display: flex;
   width: 74%;
- 
 
   justify-content: space-around;
   align-items: center;
-
 }
 
-.f1-left-side{
+.f1-left-side {
   display: flex;
 }
 
-.f1-left-side img{
+.f1-left-side img {
   height: 110px;
-
 }
 
-.f1-logo-container{
+.f1-logo-container {
   display: flex;
   justify-content: space-around;
 }
 
-.name-of-company{
+.name-of-company {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
-footer{
+footer {
   color: black;
 }
-
