@@ -1,85 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init({
-          publicKey: "RaBfhD3HwcOvhsxDQ",
-        });
-      })();
-    </script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/ContactForm/main.css" />
+</head>
 
-    <script src="scripts/EmailSender.js"></script>
-
-    <link rel="stylesheet" href="styles/ContactForm/main.css" />
-  </head>
-  <body>
-    <main>
-      <div class="cf1">
-        <div>
-          <h1>K-Web-Resume</h1>
-        </div>
-        <div>
-          <h2>
-            Thank you for reaching out to me! I will contact you as soon as
-            possible!
-          </h2>
-        </div>
-        <div></div>
+<body>
+  <main>
+    <div class="cf1">
+      <div>
+        <h1>K-Web-Resume</h1>
       </div>
-
-      <div class="cf2">
-        <div></div>
-        <form>
-          <div>
-            <label for="name">Name:</label><br />
-            <input type="text" id="nametext" name="nametext" required /><br />
-          </div>
-
-          <div>
-            <label for="Email">Email:</label><br />
-            <input
-              type="email"
-              id="Customer_email"
-              name="Customer_email"
-              required
-            /><br />
-          </div>
-
-          <div>
-            <label for="number">Mobile number:</label><br />
-            <input type="tel" id="mobile" name="mobile" /><br />
-          </div>
-
-          <div>
-            <label for="text">Subject:</label><br />
-            <input type="text" id="Sub_text" name="Sub_text" /><br />
-          </div>
-
-          <div>
-            <label for="text">Message:</label><br />
-
-            <textarea
-              class="text-message"
-              name="Message_text"
-              id="Message_text"
-            ></textarea>
-            <br />
-          </div>
-
-          <div>
-            <button class="submit-btn" onclick="sendEmail()">Submit</button>
-          </div>
-        </form>
+      <div>
+        <h2>
+          Thank you for reaching out to me! I will contact you as soon as
+          possible!
+        </h2>
       </div>
-    </main>
-  </body>
+      <div></div>
+    </div>
+
+    <div class="cf2">
+      <div></div>
+      <form action="https://formsubmit.co/emailform095@gmail.com" method="POST">
+        <input type="text" id="nametext" name="name" required placeholder="Name" />
+        <input type="email" id="Customer_email" name="email" required placeholder="Email" />
+        <input type="tel" id="mobile" name="mobile" placeholder="Mobile Number" />
+        <input type="text" id="Sub_text" name="subject" placeholder="Subject" />
+        <textarea class="text-message" name="msg" id="Message_text" placeholder="Message"></textarea>
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_autoresponse"
+          value="Thank you for reaching out to me! I will give you a reply as soon as possible!">
+
+        <button class="submit-btn" type="submit">Submit</button>
+
+      </form>
+    </div>
+  </main>
+
+</body>
+
 </html>
